@@ -308,7 +308,7 @@ class ProxmoxCluster(View):
     """Homepage"""
     template_name = 'netbox_proxbox/proxmox/cluster.html'
 
-    domain = "http://localhost:8800"
+    domain = "http://localhost:8080"
     path = "/proxmox/cluster/status"
     
     
